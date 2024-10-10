@@ -1,0 +1,15 @@
+.Card {
+  border: solid 2px rgba(111, 218, 246, 0.5);
+  background-color: white;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  min-width: 24em;
+  min-height: 32em;
+  &.LoginFormCard {
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,51 @@
+.LoginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0px;
+  height: auto;
+  width: auto;
+  margin: 0 28px;
+  padding: 16px 8px;
+}
+
+.TitleForm {
+  padding-top: 16px;
+  font-size: 3em;
+  line-height: 10px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 28px;
+}
+
+.InputTextLogin {
+  margin: 8px 0;
+  width: 70%;
+  height: 30px;
+}
+
+.TextboxTitle {
+  text-align: left;
+  margin-top: 8px;
+}
+.LogInLink {
+  font-size: 14px;
+  color: rgba(0, 0, 200);
+  padding: 16px 0;
+  text-align: left;
+  width:fit-content;
+}
+.LogInLink::after {
+  color: var(--primary-color);
+}
+
+.ErrorMessage {
+  font-size: 14px;
+  text-align: left;
+  color: var(--primary-color);
+}
+
+.SubmitButton {
+  width: 40%;
+  margin: 16px 0;
+}
